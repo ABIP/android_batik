@@ -9,6 +9,11 @@
            revision="kitkat"
            fetch="https://github.com/ABIP" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-4.4" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -503,4 +508,7 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="batik" />
+
+  <!-- OmniROM -->
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" />
 </manifest>
