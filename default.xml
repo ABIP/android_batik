@@ -492,7 +492,7 @@
   <!-- ABIP -->
   <project path="art" name="android_art" remote="batik" />
   <project path="batik" name="batik" remote="batik" />
-  <project path="build" name="android_build" groups="pdk" remote="batik" />
+  <project path="build" name="android_build" groups="pdk" remote="batik" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" remote="batik" />
@@ -504,7 +504,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="batik" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="batik" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="batik" />
-  <project path="vendor/abip" name="android_vendor_abip" remote="batik" />
+  <project path="vendor/abip" name="android_vendor_abip" remote="batik" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="batik" />
