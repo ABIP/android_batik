@@ -501,7 +501,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="batik" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="batik" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="batik" />
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="batik" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="batik" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="batik" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="batik" />
