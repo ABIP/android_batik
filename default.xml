@@ -6,6 +6,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r46" />
 
+  <remote  name="batik"
+           revision="mm6.0"
+           fetch="https://github.com/ABIP" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -19,7 +23,7 @@
            sync-j="4" />
 
 <!-- BEGIN ABIP -->
-  <project path="batik" name="abip/android_batik" />
+  <project path="batik" name="batik" remote="batik" />
 <!-- END ABIP -->
 
 <!-- BEGIN CYANOGENMOD -->
